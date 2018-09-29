@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.exampleone.s.inventoryapp.InsertActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/product_details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/product_name_edit_text"
+        style="@style/ProductAddFormStyle"
+        android:hint="@string/product_name"
+        android:inputType="textCapWords" />
+    <EditText
+        android:id="@+id/product_price_edit_text"
+        style="@style/ProductAddFormStyle"
+        android:hint="@string/product_price"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/product_quantity_edit_text"
+        style="@style/ProductAddFormStyle"
+        android:hint="@string/product_quantity"
+        android:inputType="number" />
+    <Spinner
+        android:id="@+id/product_supplier_name_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingRight="16dp"
+        android:spinnerMode="dropdown" />
+    <EditText
+        android:id="@+id/product_supplier_phone_number_edit_text"
+        style="@style/ProductAddFormStyle"
+        android:hint="@string/product_supplier_phone_number"
+        android:inputType="number" />
+</LinearLayout>

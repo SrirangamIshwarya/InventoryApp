@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="plus_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="size">15sp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_textview_marginRight">10dp</dimen>
+    <dimen name="list_item_linearlayout_marginLeft">5dp</dimen>
+</resources>
